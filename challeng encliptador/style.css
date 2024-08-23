@@ -1,0 +1,55 @@
+* {background: rgb(227, 227, 236);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:200; 
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura {
+
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+
+
+}
+
+main {
+
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-are {
+
+    border: none;
+    color: #e4d6d6;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #bda5a5;}
+.text-are:focus {
+    outline: nome;
+}
+.mensagem {
+    background: white;
+    background-image: url(projeto\ challeng.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    color: rgb(221, 208, 193);
+    margin-left: 200px;
+    margin-top: 5px;
+    padding-left: 10%;
+    position: fixed;
+}
+.mensagem:focus {
+    outline: none;
+}
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
